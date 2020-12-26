@@ -7,7 +7,7 @@ package gulimall.common.constant;
  */
 public class AuthServerConstant {
     /**
-     * 手机号缓存前缀测试01
+     * 手机号缓存前缀测试01011
      */
     public static final String SMS_CODE_CACHE_PREFIX = "sms:code:";
     /**
