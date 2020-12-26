@@ -19,7 +19,7 @@ import org.springframework.session.web.http.DefaultCookieSerializer;
 public class MySpringSessionConfig {
 
     /**
-     * 自定义保存cookie
+     * 自定义保存cookie测试01
      * @return cookieSerializer
      */
     @Bean
@@ -28,6 +28,7 @@ public class MySpringSessionConfig {
         cookieSerializer.setCookieName("GULISESSION");
         cookieSerializer.setCookiePath("/");
         //设置存储cookie的域(保证在各个子域名下都可以访问)测试合并
+        
         cookieSerializer.setDomainName("gulimall.com");
         return cookieSerializer;
     }
