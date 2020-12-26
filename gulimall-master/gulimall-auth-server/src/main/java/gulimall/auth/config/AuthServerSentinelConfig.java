@@ -34,6 +34,7 @@ public class AuthServerSentinelConfig {
     public AuthServerSentinelConfig() {
         WebCallbackManager.setUrlBlockHandler(new UrlBlockHandler() {
             /**
+
              * 只要请求被阻止时触发,根据异常类型返回通用提示信息
              *
              * @param request  Servlet request
