@@ -28,6 +28,7 @@ public class MySpringSessionConfig {
         cookieSerializer.setCookieName("GULISESSION");
         cookieSerializer.setCookiePath("/");
         //设置存储cookie的域(保证在各个子域名下都可以访问)测试合并
+        
         cookieSerializer.setDomainName("gulimall.com");
         return cookieSerializer;
     }
