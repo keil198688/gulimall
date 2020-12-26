@@ -9,10 +9,13 @@ public class AuthServerConstant {
     /**
      * 手机号缓存前缀
      */
+
+
     public static final String SMS_CODE_CACHE_PREFIX = "sms:code:";
     /**
      * 登录成功保存数据的KEY
      */
+
     public static final String LOGIN_USER = "loginUser";
     /**
      * 登录失败保存数据的KEY
