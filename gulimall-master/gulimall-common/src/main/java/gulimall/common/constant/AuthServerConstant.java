@@ -17,6 +17,7 @@ public class AuthServerConstant {
      */
 
     public static final String LOGIN_USER = "loginUser";
+    
     /**
      * 登录失败保存数据的KEY
      */
